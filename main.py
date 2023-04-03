@@ -8,6 +8,7 @@ try:
         text = my_file.read()
         translation = translator.translate("This is a pen.")
         translation2 = translator.translate(text)
+        translation3 = translator.translate('commit new changes in pycharm')
         print(translation)
         print(translation2)
 except FileNotFoundError as e:
